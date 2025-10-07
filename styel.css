@@ -1,0 +1,86 @@
+body, ul, li, h1, h2, a{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    background-color: black;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+header h1{
+    color: blue;
+    border: 8px solid, red;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 36px;
+}
+
+.banner{
+    position: relative;
+}
+
+.banner img{
+    max-width: 100%;
+}
+
+.banner .welcome{
+    background-color: black;
+    color: blue;
+    padding: 100px;
+    font-size: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.banner h2{
+    font-size: 1.4rem;
+    background-color: black;
+    color: blue;
+}
+
+nav{
+    background-color:black;
+    padding: 20px;
+    position: sitcky;
+    top: 148px;
+    z-index: 1;
+}
+
+nav ul{
+    white-space: normal;
+    max-width: 1200px;
+    margin: 0;
+    text-align: left;
+}
+
+nav li{
+    width: 25%;
+    display: inline-block;
+    font-size: 24px;
+}
+
+nav li a{
+    text-decoration: red;
+}
+
+main{
+    max-width: 100%;
+    margin: 80px;
+    padding: 0 40px;
+}
+
+article h2{
+    color: blue;
+    font-size: 40px;
+}
+img{
+    max-width: 100%;
+}
